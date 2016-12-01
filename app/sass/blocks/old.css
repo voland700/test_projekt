@@ -1,0 +1,284 @@
+.wrapper {
+  border: 1px solid #d6d6d8;
+  border-radius: 10px;
+  background: #f7f7f9;
+  margin-top: 40px;
+  padding: 80px;
+  text-align: justify;
+  text-indent: 25px; }
+
+.hr-top {
+  border-bottom: 3px solid #5f9fcb; }
+
+.question_number {
+  text-align: right;
+  margin-right: 25px; }
+
+.start-content {
+  padding-top: 10px;
+  padding-bottom: 100px; }
+  .start-content ul {
+    list-style: none; }
+
+.sendsubmit4 {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  width: 222px;
+  height: 58px;
+  margin: auto;
+  background: transparent url(../img/Submit4.png) no-repeat center top;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.5); }
+
+.sendsubmit4:hover {
+  box-shadow: 0 0 1px rgba(122, 122, 122, 0.5); }
+
+.sendsubmit6 {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  width: 222px;
+  height: 58px;
+  margin: auto;
+  background: transparent url(../img/Submit6.png) no-repeat center top;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.5); }
+
+.sendsubmit6:hover {
+  box-shadow: 0 0 1px rgba(122, 122, 122, 0.5); }
+
+.hr-bottom {
+  border-bottom: 3px solid #5f9fcb;
+  padding-bottom: 100px; }
+
+.question {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 500;
+  color: #555; }
+
+.answer1 {
+  margin-top: 20px; }
+
+.answer1 a, .answer2 a, .answer3 a {
+  display: block;
+  color: #777;
+  text-decoration: none;
+  padding: 10px; }
+.answer1 a:hover, .answer2 a:hover, .answer3 a:hover {
+  color: #012b46;
+  background: #f1f1f1;
+  border: 0;
+  border-radius: 8px; }
+
+.sendsubmit6_new {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  width: 222px;
+  height: 58px;
+  margin: auto;
+  background: transparent url(../img/Submit6_new.png) no-repeat center top;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.5); }
+
+.sendsubmit6_new:hover {
+  box-shadow: 0 0 1px rgba(122, 122, 122, 0.5); }
+
+.SubmitReturn {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  width: 222px;
+  height: 58px;
+  margin: auto;
+  background: transparent url(../img/SubmitReturn.png) no-repeat center top;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.5); }
+
+.SubmitReturn:hover {
+  box-shadow: 0 0 1px rgba(122, 122, 122, 0.5); }
+
+.sendsubmit4_new {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  width: 222px;
+  height: 58px;
+  margin: auto;
+  background: transparent url(../img/Submit4_new.png) no-repeat center top;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(122, 122, 122, 0.5); }
+
+.sendsubmit4_new:hover {
+  box-shadow: 0 0 1px rgba(122, 122, 122, 0.5); }
+
+.sdal, .oblom {
+  display: block;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 15px; }
+
+.sdal {
+  color: #2eea5a; }
+
+.oblom {
+  color: #f70000; }
+
+.fontRez {
+  display: block;
+  text-align: center;
+  padding-bottom: 120px; }
+
+.conclusion {
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 20px;
+  padding: 0 15px 25px 15px; }
+  .conclusion h4 {
+    font-size: 15px;
+    margin-bottom: 0; }
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+.wrapper{
+	text-align: left;
+	text-indent: 0;
+}
+.start-content {
+    padding-bottom: 50px;
+}
+
+.sendsubmit4{
+	margin-bottom: 30px;
+}
+.sendsubmit6_new {
+	margin-bottom: 30px;
+}
+
+hr-bottom {
+    padding-bottom: 50px;
+}
+
+.answer1 a, .answer2 a, .answer3 a {
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+ /* text-align: left; */
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.wrapper{
+	text-align: left;
+	text-indent: 0;
+	padding: 60px 20px;
+}
+.start-content {
+    padding-bottom: 50px;
+}
+
+.sendsubmit4{
+	margin-bottom: 30px;
+}
+
+.sendsubmit6_new {
+	margin-bottom: 30px;
+}
+
+hr-bottom {
+    padding-bottom: 50px;
+}
+.question{
+	font-size: 14px;
+}
+
+
+.answer1 a, .answer2 a, .answer3 a {
+  
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e7e7e7;
+   font-size: 14px;
+
+
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
