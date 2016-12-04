@@ -1,2 +1,134 @@
+.question-title
+	font-size: 1.2em
+	line-height: 1.2
+	margin-top: 20px;
+	margin-bottom: 25px
+
+
+
+.test-item
+	margin-bottom: 5px
+
+.question-item	
+	position: relative
+
+	padding-left: 20px
+	padding-right: 20px
+	text-indent: 0	
+	h3
+		font-size: 0.9em
+		margin-top: 5px
+
+.question-item-closed
+
+
+
+.question-item--false
+	border: 1px solid #dedede
+	border-radius: 5px	5px 3px 3px
+
+.question-item--true
+	background: #8ff7a5
+	background: -moz-linear-gradient(top,  #8ff7a5 0%, #85e590 39%, #85e590 66%, #8ff7a5 100%)
+	background: -webkit-linear-gradient(top,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
+	background: linear-gradient(to bottom,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ff7a5', endColorstr='#8ff7a5',GradientType=0 )
+	border: 1px solid #dedede
+	border-radius: 5px	5px 3px 3px
+
+.question-item--true::before
+	content: "Верно"
+	display: block	
+	font-size: 0.8em
+	font-weight: 700
+	color: green
+	float: right
+	border: 1px solid #eeeeee
+	border-radius: 5px
+	text-indent: 0
+	padding: 0 15px
+	margin-top: 5px
+	margin-right: 20px
+	background: #8ff7a5
+	background: -moz-linear-gradient(top,  #8ff7a5 0%, #85e590 39%, #85e590 66%, #8ff7a5 100%)
+	background: -webkit-linear-gradient(top,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
+	background: linear-gradient(to bottom,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ff7a5', endColorstr='#8ff7a5',GradientType=0 )
+
+
+
+.question-open
+	position: absolute
+	top: 10px	
+	width: 10px
+	height: 10px
+	background-image: url("../img/closed.svg")
+	background-repeat: no-repeat
+	background-position: 50% 50%
+	background-size: auto
+	background-size: 10px 10px
+
+.question-closed
+	position: absolute
+	top: 10px	
+	width: 10px
+	height: 10px
+	background-image: url("../img/open.svg")
+	background-repeat: no-repeat
+	background-position: 50% 50%
+	background-size: auto
+	background-size: 10px 10px
+	opacity: 0.5
+
+question-item--closed
+
+
+
+.questions-namber
+	font-size: 0.8em
+	margin-left: 15px
+
+.question-true
+	display: block	
+	font-size: 0.8em
+	font-weight: 700
+	color: green
+	float: right
+	border: 1px solid #eeeeee
+	border-radius: 5px
+	text-indent: 0
+	padding: 0 15px
+	margin-top: 5px
+	background: #8ff7a5
+	background: -moz-linear-gradient(top,  #8ff7a5 0%, #85e590 39%, #85e590 66%, #8ff7a5 100%)
+	background: -webkit-linear-gradient(top,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
+	background: linear-gradient(to bottom,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ff7a5', endColorstr='#8ff7a5',GradientType=0 )
+
+
 .ansver_blok
-	display: none
+	display: block
+	border-right: 1px solid #ccc
+	border-left: 1px solid #ccc
+	border-bottom: 1px solid #ccc
+	border-radius: 0 0 5px 5px
+	padding: 15px 10px
+	background: #FBFBFC
+	margin-bottom: 10px
+
+.ansver-item
+	display: block
+	margin: 0
+	padding: 10px 10px
+	border-radius: 5px
+	
+	text-indent: 0
+	&:hover
+		cursor: pointer
+		background: #f3f3f3
+	&:focus
+		cursor: pointer
+		background: #f3f3f3
+
+	
+
