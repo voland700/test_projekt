@@ -1,17 +1,14 @@
 .question-title
 	font-size: 1.2em
 	line-height: 1.2
-	margin-top: 20px;
+	margin-top: 20px
 	margin-bottom: 25px
-
-
 
 .test-item
 	margin-bottom: 5px
 
 .question-item	
 	position: relative
-
 	padding-left: 20px
 	padding-right: 20px
 	text-indent: 0	
@@ -19,22 +16,25 @@
 		font-size: 0.9em
 		margin-top: 5px
 
-.question-item-closed
-
-
 
 .question-item--false
 	border: 1px solid #dedede
 	border-radius: 5px	5px 3px 3px
+	background: rgb(244,244,244)
+	background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(244,244,244,1) 23%, rgba(239,239,239,1) 50%, rgba(244,244,244,1) 76%, rgba(244,244,244,1) 100%)
+	background: -webkit-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(244,244,244,1) 23%,rgba(239,239,239,1) 50%,rgba(244,244,244,1) 76%,rgba(244,244,244,1) 100%)
+	background: linear-gradient(to bottom,  rgba(244,244,244,1) 0%,rgba(244,244,244,1) 23%,rgba(239,239,239,1) 50%,rgba(244,244,244,1) 76%,rgba(244,244,244,1) 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#f4f4f4',GradientType=0 )
 
-.question-item--true
-	background: #8ff7a5
-	background: -moz-linear-gradient(top,  #8ff7a5 0%, #85e590 39%, #85e590 66%, #8ff7a5 100%)
-	background: -webkit-linear-gradient(top,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
-	background: linear-gradient(to bottom,  #8ff7a5 0%,#85e590 39%,#85e590 66%,#8ff7a5 100%)
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ff7a5', endColorstr='#8ff7a5',GradientType=0 )
-	border: 1px solid #dedede
+
+.question-item--true	
+	background: -moz-linear-gradient(top,  rgba(143,247,165,0.69) 0%, rgba(130,224,144,0.69) 23%, rgba(109,224,130,0.69) 50%, rgba(133,229,147,0.7) 76%, rgba(143,247,165,0.7) 100%)
+	background: -webkit-linear-gradient(top,  rgba(143,247,165,0.69) 0%,rgba(130,224,144,0.69) 23%,rgba(109,224,130,0.69) 50%,rgba(133,229,147,0.7) 76%,rgba(143,247,165,0.7) 100%)
+	background: linear-gradient(to bottom,  rgba(143,247,165,0.69) 0%,rgba(130,224,144,0.69) 23%,rgba(109,224,130,0.69) 50%,rgba(133,229,147,0.7) 76%,rgba(143,247,165,0.7) 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b08ff7a5', endColorstr='#b38ff7a5',GradientType=0)
+	border: 1px solid rgba(143,247,165,0.69)
 	border-radius: 5px	5px 3px 3px
+
 
 .question-item--true::before
 	content: "Верно"
@@ -79,10 +79,6 @@
 	background-size: auto
 	background-size: 10px 10px
 	opacity: 0.5
-
-question-item--closed
-
-
 
 .questions-namber
 	font-size: 0.8em
@@ -130,5 +126,55 @@ question-item--closed
 		cursor: pointer
 		background: #f3f3f3
 
-	
+.prev-list
+	display: block
+	width: 80px
+	height: 25px
+	float: right
+	background-image: url("../img/prew.svg")
+	background-repeat: no-repeat
+	background-position: 50% 50%
+	background-size: auto
+	background-size: 80px 25px
+	color: #f7f7f9
+	line-height: 1.5	
+	text-shadow: 1px 1px 0px #2f6184
+	font-weight: bold
+.prev-list:hover
+	text-decoration: none
+	color: #ffffff
+	text-shadow: 1px 1px 0px #2f6184
 
+.main_title
+	max-width: 850px
+	margin: 20px auto
+	text-indent: 0
+	font-size: 1.3em
+	font-weight: 600
+	line-height: 1.5
+	text-align: center
+	
+.batquest
+	margin-top: 50px
+	margin-bottom: 50px
+
+.question-team
+	text-indent: 0
+
+.sub_list
+	display: block
+	width: 222px
+	height: 58px
+	margin: 0 auto	
+	font-size: 0
+	border: none	
+	-webkit-border-radius: 4px
+	border-radius: 4px
+	-webkit-box-shadow: 0 0 5px rgba(122,122,122,.5)
+	box-shadow: 0 0 5px rgba(122,122,122,.5)
+.sub_list:hover
+	box-shadow: 0 0 1px rgba(122,122,122,.5)
+.sub_list--four
+	background: url("../img/Submit4.png") center top no-repeat
+.sub_list--six
+	background: url("../img/Submit6.png") center top no-repeat
